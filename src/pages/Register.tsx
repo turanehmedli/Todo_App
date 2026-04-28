@@ -62,7 +62,7 @@ const Register = () => {
       <form onSubmit={(e)=>{
         e.preventDefault()
         form.handleSubmit();
-      }} className="flex flex-col items-center justify-center p-5 w-full h-screen">
+      }} className="flex flex-col items-center md:justify-center p-5 w-full h-screen">
         <h2 className="font-bold text-4xl text-center">Register</h2>
 
         <div className="w-full flex flex-col gap-5 p-5 ">

@@ -9,7 +9,7 @@ const Login = () => {
     defaultValues: {
       email: "",
       password: "",
-    },
+    },  
     onSubmit: async ({ value }) => {
       try {
         const res = await axios.post(
@@ -49,7 +49,7 @@ const Login = () => {
           e.preventDefault();
           form.handleSubmit();
         }}
-        className="flex flex-col items-center justify-center p-5 w-full h-full"
+        className="flex flex-col items-center md:justify-center p-5 w-full h-full"
       >
         <h2 className="font-bold text-4xl text-center">Login</h2>
 
