@@ -1,4 +1,3 @@
-import { Delete, Pen, Trash } from "lucide-react";
 import DeleteButton from "./DeleteButton";
 import EditButton from "./EditButton";
 import { NavLink } from "react-router";

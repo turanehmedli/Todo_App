@@ -1,5 +1,4 @@
 import { Pen } from "lucide-react";
-import React from "react";
 
 const EditButton = () => {
   return (
